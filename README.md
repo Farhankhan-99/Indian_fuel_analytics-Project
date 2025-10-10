@@ -1,7 +1,7 @@
 # India Fuel Sales Analytics (2019-2024) | SQL + PostgreSQL
 
 **🧑‍💻 Author:** Farhan Khan  
-**🔗 LinkedIn:** [Connect with me](www.linkedin.com/in/farhankhan999)
+**🔗 LinkedIn:** [Connect with me]([www.linkedin.com/in/farhankhan999](https://www.linkedin.com/in/farhankhan999/))
 
 ---
 
