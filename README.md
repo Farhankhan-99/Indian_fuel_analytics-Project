@@ -1,20 +1,20 @@
 # India Fuel Sales Analytics (2019-2024) | SQL + PostgreSQL
 
-** 🧑‍💻 Author:** Farhan Khan  
-** 🔗LinkedIn:** [Connect with me](www.linkedin.com/in/farhankhan999)
+**🧑‍💻 Author:** Farhan Khan  
+**🔗 LinkedIn:** [Connect with me](www.linkedin.com/in/farhankhan999)
 
 ---
 
-## Business Problem
+## 🏢 Business Problem
 Analyze 5 years of state-wise fuel consumption data across India to identify growth patterns, assess COVID-19 impact, and provide data-driven recommendations for market expansion and investment opportunities.
 
 ---
 
 ## Dataset Overview
 
-**Source:** RAJYA SABHA SESSION - 267, UNSTARRED QUESTION No 772 (Answered: 10 Feb 2025)  
-**Provider:** Petroleum Planning and Analysis Cell (PPAC)  
-**Link:** [data.gov.in](https://data.gov.in)
+**📦 Source:** RAJYA SABHA SESSION - 267, UNSTARRED QUESTION No 772 (Answered: 10 Feb 2025)  
+**🏛️ Provider:** Petroleum Planning and Analysis Cell (PPAC)  
+**🌐 Link:** [data.gov.in](https://data.gov.in)
 
 **Coverage:**
 - Time Period: FY 2019-20 to FY 2023-24 (5 years)
@@ -22,7 +22,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 - Fuel Types: Petrol (MS - Motor Spirit) and Diesel (HSD - High-Speed Diesel)
 - Unit: Thousand Metric Tonnes (TMT)
 
-**Columns:**
+**📋 Columns:**
 - `sr_no` - Serial number (Primary Key)
 - `state_ut` - State/Union Territory name
 - `petrol_2019_20`, `diesel_2019_20` - FY 2019-20 sales in TMT
@@ -33,7 +33,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ---
 
-## Approach
+##⚙️ Approach
 
 **Database Design:**
 - Created normalized PostgreSQL database `india_fuel_analytics`
@@ -67,7 +67,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ---
 
-## Key Analysis Questions
+##❓ Key Analysis Questions
 
 ### Basic Analysis (2 queries)
 1. Complete null analysis for data quality assessment
@@ -244,7 +244,7 @@ india-fuel-analytics/
 
 ## Contact
 
-**Farhan Khan**  
+**🧑‍💻 Farhan Khan**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/farhankhan999)
 
 ---
