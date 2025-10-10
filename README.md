@@ -39,7 +39,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 **Database:** PostgreSQL with optimized schema, CSV batch loading (36+ states)
 
-**Analysis:** Data quality checks, descriptive analytics, YoY growth rates, COVID-19 impact assessment, 4-tier market segmentation (NTILE), 5-year CAGR forecasting
+**Analysis:** Data quality checks,descriptive analytics,YoY growth, COVID-19 impact, 4-tier market segmentation (NTILE), 5-year CAGR forecasting
 
 **SQL Techniques:** CTEs, Window Functions, UNION ALL, CASE statements, Mathematical functions
 
