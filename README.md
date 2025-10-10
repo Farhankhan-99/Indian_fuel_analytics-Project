@@ -35,7 +35,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ---
 
-##⚙️ Approach
+## ⚙️ Approach
 
 **Database Design:**
 - Created normalized PostgreSQL database `india_fuel_analytics`
@@ -69,7 +69,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ---
 
-##❓ Key Analysis Questions
+## ❓ Key Analysis Questions
 
 ### Basic Analysis (2 queries)
 1. Complete null analysis for data quality assessment
@@ -244,12 +244,6 @@ india-fuel-analytics/
 
 ---
 
-## Contact
-
-**🧑‍💻 Farhan Khan**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/farhankhan999)
-
----
 
 ⭐ Star this repo if you find it useful!
 ```
