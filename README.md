@@ -132,7 +132,7 @@ Created an interactive Power BI dashboard with comprehensive visualizations and 
 **Visualizations:**
 1. **Petrol vs Diesel Donut Chart** - Shows fuel type distribution (71.67% Diesel, 28.33% Petrol)
 2. **Top 5 States by Fuel Consumption** - Horizontal bar chart highlighting market leaders
-3. **Lowest 5 States by Fuel Consumption** - Identifies emerging markets
+3. **Lowest 5 States by Fuel Consumption** - Identifies lowest consuming states and UT
 4. **Top5 vs Rest-India Donut Chart** - Market concentration analysis (46.1% vs 53.9%)
 5. **Fuel Consumption Trend (2019-2024)** - Line chart showing COVID impact and recovery pattern
 
