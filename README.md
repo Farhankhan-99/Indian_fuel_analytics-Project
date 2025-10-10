@@ -34,13 +34,6 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 - `petrol_2023_24`, `diesel_2023_24` - FY 2023-24 sales in TMT
 
 ---
-
-## 🧰 Technologies Used
-
-- **Database:** PostgreSQL
-- **Language:** SQL
-- **Visualization:** Power BI
-- **Key Techniques:** CTEs, Window Functions, UNION, CASE Statements, Aggregate Functions, CAGR Calculations, DAX Measures
 ---
 
 ## 🔍 Key SQL Analysis (15 Queries)
@@ -130,4 +123,11 @@ Created an interactive Power BI dashboard with comprehensive visualizations and 
 - **2021-22:** 107K TMT (recovery begins)
 - **2022-23:** 121K TMT (strong rebound)
 - **2023-24:** 127K TMT (peak performance)
-  
+
+---
+## 🧰 Technologies Used
+
+- **Database:** PostgreSQL
+- **Language:** SQL
+- **Visualization:** Power BI
+- **Key Techniques:** CTEs, Window Functions, UNION, CASE Statements, Aggregate Functions, CAGR Calculations, DAX Measures
