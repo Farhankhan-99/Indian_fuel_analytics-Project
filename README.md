@@ -37,68 +37,44 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ## ⚙️ Approach
 
-**Database Design:**
-- Created PostgreSQL database `india_fuel_analytics`
-- Designed `fuel_sales` table with proper data types and constraints
-- Imported 36+ state records using CSV batch loading
+**Database:** PostgreSQL with optimized schema, CSV batch loading (36+ states)
 
-**Analysis Methodology:**
-- **Data Quality Check:** Performed complete null analysis across all columns
-- **Descriptive Analytics:** Calculated state-wise and year-wise fuel consumption totals
-- **Comparative Analysis:** Identified highest/lowest consuming states and petrol-diesel ratios
-- **Growth Analytics:** Computed Year-over-Year (YoY) growth rates for trend identification
-- **Impact Assessment:** Analyzed COVID-19 effect on diesel sales (2020-21 vs 2019-20)
-- **Segmentation:** Ranked states into 4-tier consumption categories using NTILE window function
-- **Predictive Modeling:** Calculated 5-year CAGR and forecasted 2024-25 consumption(using AI assistent)
+**Analysis:** Data quality checks, descriptive analytics, YoY growth rates, COVID-19 impact assessment, 4-tier market segmentation (NTILE), 5-year CAGR forecasting
 
-**Visualization & Reporting:**
-- Built interactive Power BI dashboard with 8+ visualizations
-- Implemented regional filtering (East, North, South, West zones)
-- Created dynamic state-level drill-down capabilities
-- Designed KPI cards for key metrics monitoring
-- Developed trend analysis with line charts showing COVID impact
-- Built comparative bar charts for top/bottom performing states
-- Added donut charts for fuel composition and market contribution analysis
+**SQL Techniques:** CTEs, Window Functions, UNION ALL, CASE statements, Mathematical functions
 
-**SQL Techniques Used:**
-- Common Table Expressions (CTEs) for complex queries
-- Window Functions (NTILE, SUM OVER) for ranking and aggregation
-- UNION ALL for combining multi-year data
-- CASE statements for conditional logic and categorization
-- Mathematical functions (POWER, ROUND) for CAGR calculations
+**Power BI:** Interactive dashboard with 8+ visualizations, regional filters, drill-downs, KPI cards, trend analysis
 
 ---
 
-## ❓ Key Analysis Questions
+## 🔍 Key SQL Analysis (15 Queries)
 
-### Basic Analysis (2 queries)
-1. Complete null analysis for data quality assessment
-2. Data preview and structure validation
+### Basic (2)
+1. Null analysis & data validation
+2. Data preview & structure check
 
-### Medium-Level Analysis (5 queries)
-3. Total petrol & diesel sales by state (5-year cumulative)
-4. Highest consuming states in 2023-24 (petrol & diesel)
-5. Lowest consuming states in 2023-24 (petrol & diesel)
-6. Petrol vs diesel ratio analysis (2023-24)
-7. Year-wise total fuel sales across India
+### Medium (5)
+3. State-wise 5-year fuel totals
+4. Top consuming states (2023-24)
+5. Lowest consuming states (2023-24)
+6. Petrol vs diesel ratio (2023-24)
+7. Year-wise national sales trends
 
-### Advanced Analysis (6 queries)
-8. Year-over-Year growth in petrol sales by state
-9. States with continuous diesel growth across all 5 years
-10. Top 5 states contributing to India's petrol sales (% share)
-11. Diesel sales drop during COVID-19 pandemic (state-wise impact)
-12. States where petrol sales overtook diesel in any year
-13. Average petrol & diesel consumption by state (5-year mean)
+### Advanced (6)
+8. YoY growth by state
+9. Continuous diesel growth states
+10. Top 5 states' market share (%)
+11. COVID-19 impact on diesel sales
+12. Petrol overtaking diesel analysis
+13. 5-year average consumption
 
-### Expert-Level Analysis (2 queries)
-14. Market segmentation analysis (4-tier classification)
-15. Advanced predictive forecasting with CAGR methodology:
-    - 5-year CAGR calculation for petrol, diesel, and total fuel
-    - Predicted consumption for 2024-25
-    - Growth category classification (Explosive/High/Moderate/Slow/Declining)
-    - Investment recommendations (Priority/Consider/High Potential/Monitor)
-    - Fuel preference outlook (Petrol-Driven/Diesel-Driven/Balanced)
-
+### Expert (2)
+14. 4-tier market segmentation (NTILE)
+15. CAGR forecasting & investment recommendations (AI-assisted):
+    - 5-year CAGR (petrol, diesel, total)
+    - 2024-25 predictions
+    - Growth categories & investment priorities
+    - Fuel preference outlook
 ---
 
 ## 🔍 Key Findings
