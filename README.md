@@ -38,7 +38,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 ## ⚙️ Approach
 
 **Database Design:**
-- Created normalized PostgreSQL database `india_fuel_analytics`
+- Created PostgreSQL database `india_fuel_analytics`
 - Designed `fuel_sales` table with proper data types and constraints
 - Imported 36+ state records using CSV batch loading
 
@@ -49,7 +49,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 - **Growth Analytics:** Computed Year-over-Year (YoY) growth rates for trend identification
 - **Impact Assessment:** Analyzed COVID-19 effect on diesel sales (2020-21 vs 2019-20)
 - **Segmentation:** Ranked states into 4-tier consumption categories using NTILE window function
-- **Predictive Modeling:** Calculated 5-year CAGR and forecasted 2024-25 consumption
+- **Predictive Modeling:** Calculated 5-year CAGR and forecasted 2024-25 consumption(using AI assistent)
 
 **Visualization & Reporting:**
 - Built interactive Power BI dashboard with 8+ visualizations
@@ -139,25 +139,10 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ---
 
-## Technologies Used
-
-- **Database:** PostgreSQL
-- **Language:** SQL
-- **Visualization:** Power BI
-- **Key Techniques:** CTEs, Window Functions, UNION, CASE Statements, Aggregate Functions, CAGR Calculations, DAX Measures
-
----
-
 ## 📊 Power BI Dashboard
 
 ### Dashboard Overview
 Created an interactive Power BI dashboard with comprehensive visualizations and dynamic filtering capabilities for deep-dive analysis.
-
-### Key Features
-- **Regional Filtering:** East, North, South, West zone selection
-- **State-Level Drill-down:** Dropdown filter for 36+ states/UTs
-- **Real-time KPIs:** 5 key performance indicators
-- **Interactive Charts:** 8+ visualizations with cross-filtering
 
 ### Dashboard Components
 
@@ -183,67 +168,11 @@ Created an interactive Power BI dashboard with comprehensive visualizations and 
 
 ---
 
-## How to Use
+## 🧰 Technologies Used
 
-### Prerequisites
-- PostgreSQL installed
-- Basic SQL knowledge
-
-### Setup Steps
-
-1. **Clone repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/india-fuel-analytics.git
-cd india-fuel-analytics
-```
-
-2. **Create database**
-```sql
-CREATE DATABASE india_fuel_analytics;
-```
-
-3. **Update CSV path in script**
-Modify line in SQL file:
-```sql
-COPY fuel_sales FROM 'YOUR_PATH/fuel_data(2019-24).csv' 
-WITH (FORMAT csv, HEADER true);
-```
-
-4. **Run SQL script**
-```bash
-psql -U username -d india_fuel_analytics -f fuel_analysis.sql
-```
-
-5. **Execute queries**
-Run individual queries to perform analysis
-
----
-
-## Project Structure
-
-```
-india-fuel-analytics/
-│
-├── fuel_analysis.sql          # Complete SQL analysis script
-├── fuel_data(2019-24).csv     # Source dataset
-├── fuel_dashboard.pbix        # Power BI dashboard file
-├── README.md                  # Documentation
-└── results/                   # Query outputs (optional)
-```
-
----
-
-## 🎯 Future Enhancements
-
-- Machine learning models for demand forecasting
-- Integration with fuel price data for price-demand elasticity analysis
-- Time-series forecasting using Python (Prophet/ARIMA)
-- Correlation analysis with economic indicators (GDP, vehicle sales)
-- Real-time data pipeline for monthly updates
-- Mobile-responsive dashboard version
-
----
+- **Database:** PostgreSQL
+- **Language:** SQL
+- **Visualization:** Power BI
+- **Key Techniques:** CTEs, Window Functions, UNION, CASE Statements, Aggregate Functions, CAGR Calculations, DAX Measures
 
 
-⭐ Star this repo if you find it useful!
-```
