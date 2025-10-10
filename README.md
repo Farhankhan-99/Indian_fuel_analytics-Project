@@ -141,7 +141,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ## 📊 Power BI Dashboard
 ---
-![Dashboard Screenshot](PowerBI_Fuel_Sales/dashboard_screenshot.png)
+[Dashboard Screenshot](PowerBI_Fuel_Sales/dashboard_screenshot.png)
 ---
 
 ### Dashboard Overview
