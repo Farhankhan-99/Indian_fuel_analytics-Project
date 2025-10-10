@@ -35,16 +35,12 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ---
 
-## ⚙️ Approach
+## 🧰 Technologies Used
 
-**Database:** PostgreSQL with optimized schema, CSV batch loading (36+ states)
-
-**Analysis:** Data quality checks,descriptive analytics,YoY growth, COVID-19 impact, 4-tier market segmentation (NTILE), 5-year CAGR forecasting
-
-**SQL Techniques:** CTEs, Window Functions, UNION ALL, CASE statements, Mathematical functions
-
-**Power BI:** Interactive dashboard with 8+ visualizations, regional filters, drill-downs, KPI cards, trend analysis
-
+- **Database:** PostgreSQL
+- **Language:** SQL
+- **Visualization:** Power BI
+- **Key Techniques:** CTEs, Window Functions, UNION, CASE Statements, Aggregate Functions, CAGR Calculations, DAX Measures
 ---
 
 ## 🔍 Key SQL Analysis (15 Queries)
@@ -75,6 +71,28 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
     - 2024-25 predictions
     - Growth categories & investment priorities
     - Fuel preference outlook
+---
+
+## 📊 Power BI Dashboard
+
+### Dashboard Overview
+Created an interactive Power BI dashboard with comprehensive visualizations and dynamic filtering capabilities for deep-dive analysis.
+
+### Dashboard Components
+
+**KPI Cards (5):**
+1. National 5Y Total Petrol: 160.98K TMT
+2. National 5Y Total Diesel: 407.16K TMT
+3. National 5Y Total Fuel: 568.14K TMT
+4. YoY Growth: 4.96%
+5. Recovery vs Pre-COVID: 112.8%
+
+**Visualizations:**
+1. **Petrol vs Diesel Donut Chart** - Shows fuel type distribution (71.67% Diesel, 28.33% Petrol)
+2. **Top 5 States by Fuel Consumption** - Horizontal bar chart highlighting market leaders
+3. **Lowest 5 States by Fuel Consumption** - Identifies lowest consuming states and UT
+4. **Top5 vs Rest-India Donut Chart** - Market concentration analysis (46.1% vs 53.9%)
+5. **Fuel Consumption Trend (2019-2024)** - Line chart showing COVID impact and recovery pattern
 ---
 ---
 ## 🔍 Key Findings
@@ -112,43 +130,4 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 - **2021-22:** 107K TMT (recovery begins)
 - **2022-23:** 121K TMT (strong rebound)
 - **2023-24:** 127K TMT (peak performance)
-
----
-
-## 📊 Power BI Dashboard
-
-### Dashboard Overview
-Created an interactive Power BI dashboard with comprehensive visualizations and dynamic filtering capabilities for deep-dive analysis.
-
-### Dashboard Components
-
-**KPI Cards (5):**
-1. National 5Y Total Petrol: 160.98K TMT
-2. National 5Y Total Diesel: 407.16K TMT
-3. National 5Y Total Fuel: 568.14K TMT
-4. YoY Growth: 4.96%
-5. Recovery vs Pre-COVID: 112.8%
-
-**Visualizations:**
-1. **Petrol vs Diesel Donut Chart** - Shows fuel type distribution (71.67% Diesel, 28.33% Petrol)
-2. **Top 5 States by Fuel Consumption** - Horizontal bar chart highlighting market leaders
-3. **Lowest 5 States by Fuel Consumption** - Identifies lowest consuming states and UT
-4. **Top5 vs Rest-India Donut Chart** - Market concentration analysis (46.1% vs 53.9%)
-5. **Fuel Consumption Trend (2019-2024)** - Line chart showing COVID impact and recovery pattern
-
-### Insights from Dashboard
-- Clear visualization of COVID-19 impact with V-shaped recovery
-- Diesel-heavy consumption pattern across India
-- Concentration of fuel demand in top 5 states
-- Strong post-pandemic growth trajectory
-
----
-
-## 🧰 Technologies Used
-
-- **Database:** PostgreSQL
-- **Language:** SQL
-- **Visualization:** Power BI
-- **Key Techniques:** CTEs, Window Functions, UNION, CASE Statements, Aggregate Functions, CAGR Calculations, DAX Measures
-
-
+  
