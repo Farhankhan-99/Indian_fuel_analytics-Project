@@ -1,7 +1,7 @@
 # India Fuel Sales Analytics (2019-2024) | SQL + PostgreSQL
 
-**Author:** Farhan Khan  
-**LinkedIn:** [Connect with me](YOUR_LINKEDIN_URL_HERE)
+** 🧑‍💻 Author:** Farhan Khan  
+** 🔗LinkedIn:** [Connect with me](www.linkedin.com/in/farhankhan999)
 
 ---
 
@@ -99,31 +99,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ---
 
-## Key Findings
-
-*[Add your actual insights here after running the analysis]*
-
-**Example findings structure:**
-
-**Market Leaders:**
-- [Top state] leads with X TMT total consumption
-- [State name] shows highest CAGR at Y% over 5 years
-
-**COVID-19 Impact:**
-- Diesel consumption dropped by Z% nationally during 2020-21
-- [State name] experienced largest decline of W% in diesel sales
-
-**Growth Opportunities:**
-- X states classified as "High Growth Market" with CAGR > 10%
-- [State name] recommended for priority investment based on forecasting model
-
-**Fuel Preferences:**
-- [Number] states show petrol-driven growth trend
-- Petrol-diesel ratio shifted from X to Y between 2019-20 and 2023-24
-
----
-
-## Key Findings
+## 🔍 Key Findings
 
 **📊 National Overview (2019-2024):**
 - Total 5-year petrol consumption: **160.98K TMT**
@@ -139,7 +115,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 **📉 Lowest Consumption States:**
 - **Bottom 5:** Nagaland, Mizoram, Sikkim, Ladakh, Lakshadweep
-- These states represent emerging markets with growth potential
+- These states and union territory represent lowest fuel consumptions.
 
 **⛽ Fuel Preference Analysis:**
 - Diesel dominates with **71.67%** of total fuel consumption
@@ -269,7 +245,7 @@ india-fuel-analytics/
 ## Contact
 
 **Farhan Khan**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_URL_HERE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/farhankhan999)
 
 ---
 
