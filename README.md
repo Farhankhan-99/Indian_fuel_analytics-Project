@@ -49,18 +49,18 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 
 ## 🔍 Key SQL Analysis (15 Queries)
 
-### Basic (2)
+### Basic Analysis
 1. Null analysis & data validation
 2. Data preview & structure check
 
-### Medium (5)
+### Medium-Level Analysis
 3. State-wise 5-year fuel totals
 4. Top consuming states (2023-24)
 5. Lowest consuming states (2023-24)
 6. Petrol vs diesel ratio (2023-24)
 7. Year-wise national sales trends
 
-### Advanced (6)
+### Advanced Analysis
 8. YoY growth by state
 9. Continuous diesel growth states
 10. Top 5 states' market share (%)
@@ -68,7 +68,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 12. Petrol overtaking diesel analysis
 13. 5-year average consumption
 
-### Expert (2)
+### Expert-Level Analysis
 14. 4-tier market segmentation (NTILE)
 15. CAGR forecasting & investment recommendations (AI-assisted):
     - 5-year CAGR (petrol, diesel, total)
@@ -76,7 +76,7 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
     - Growth categories & investment priorities
     - Fuel preference outlook
 ---
-
+---
 ## 🔍 Key Findings
 
 **📊 National Overview (2019-2024):**
