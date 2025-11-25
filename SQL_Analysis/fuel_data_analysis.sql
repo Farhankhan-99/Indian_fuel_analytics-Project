@@ -96,14 +96,31 @@ order by diesel_2023_24 asc
 limit 1);
 
 
--- petrol vs diesel ratio for each state (latest year 2023-24)
+-- Petrol vs Diesel Ratio for Each State (Latest Year 2023-24)
+select 
+state_ut,
+petrol_2023_24,
+diesel_2023_24,
+Concat(round((petrol_2023_24/diesel_2023_24)*100,2),'%') as petrol_diesel_ratio
+from fuel_Sales
+order by petrol_diesel_ratio desc;
+
+
+-- State-wise Petrol and Diesel Consumption Share (2023–24)
+with cte as (
 select
 state_ut,
 petrol_2023_24,
 diesel_2023_24,
-round(petrol_2023_24/diesel_2023_24,3) as petrol_diesel_ratio
+sum(petrol_2023_24) over() as total_petrol,
+sum(diesel_2023_24) over() as total_diesel
 from fuel_sales
-order by petrol_diesel_ratio desc;
+)
+select 
+state_ut,
+round((petrol_2023_24/total_petrol)*100,2) as per_state_petrol_share,
+round((diesel_2023_24/total_diesel)*100,2) as per_state_diesel_share
+from cte;
 
 
 -- year-wise total petrol & diesel sales across india
@@ -333,3 +350,4 @@ select
     end as fuel_preference_outlook 
 from forecast_predictions
 order by (predicted_petrol_2024_25 + predicted_diesel_2024_25) desc;
+
