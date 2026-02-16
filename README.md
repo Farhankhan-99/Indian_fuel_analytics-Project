@@ -24,16 +24,6 @@ Analyze 5 years of state-wise fuel consumption data across India to identify gro
 - Fuel Types: Petrol (MS - Motor Spirit) and Diesel (HSD - High-Speed Diesel)
 - Unit: Thousand Metric Tonnes (TMT)
 
-**📋 Columns:**
-- `sr_no` - Serial number (Primary Key)
-- `state_ut` - State/Union Territory name
-- `petrol_2019_20`, `diesel_2019_20` - FY 2019-20 sales in TMT
-- `petrol_2020_21`, `diesel_2020_21` - FY 2020-21 sales in TMT
-- `petrol_2021_22`, `diesel_2021_22` - FY 2021-22 sales in TMT
-- `petrol_2022_23`, `diesel_2022_23` - FY 2022-23 sales in TMT
-- `petrol_2023_24`, `diesel_2023_24` - FY 2023-24 sales in TMT
-
----
 ---
 
 ## 🔍 Key SQL Analysis (15 Queries)
